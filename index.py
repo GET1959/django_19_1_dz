@@ -335,6 +335,80 @@ def get_index():
                 </div>
             </div>
         </main>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Номер</th>
+                    <th scope="col">Название товара</th>
+                    <th scope="col">Цена за штуку</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col">Итоговая сумма</th>
+                    <th scope="col">Статус заказа</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Клавиатура</td>
+                    <td>1000</td>
+                    <td>12</td>
+                    <td>12 000</td>
+                    <td>
+                        <div class="alert alert-primary" role="alert">
+                            новый
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Мышь</td>
+                    <td>500</td>
+                    <td>15</td>
+                    <td>7 500</td>
+                    <td>
+                        <div class="alert alert-warning" role="alert">
+                            обработка
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Монитор</td>
+                    <td>3000</td>
+                    <td>18</td>
+                    <td>54 000</td>
+                    <td>
+                        <div class="alert alert-danger" role="alert">
+                            отмена
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Процессор</td>
+                    <td>5000</td>
+                    <td>9</td>
+                    <td>45 000</td>
+                    <td>
+                        <div class="alert alert-success" role="alert">
+                          обработан
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Кулер</td>
+                    <td>700</td>
+                    <td>14</td>
+                    <td>9 800</td>
+                    <td>
+                        <div class="alert alert-warning" role="alert">
+                            обработка
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 </main>
